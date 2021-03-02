@@ -1,0 +1,11 @@
+i<>.\src\registru_8biti.vhd
+i<>.\src\comparator.vhd
+i<>.\src\scazator_8biti.vhd
+i<>.\src\test2.vhd
+i<>.\src\suma_totala.vhd
+i<>.\src\subtrack.vhd
+i<>.\src\Sumator.vhd
+i<>.\src\display.vhd
+i<>.\src\divizor_frecventa.vhd
+i<>.\src\binary_to_bcd.vhd
+i<>.\src\Debouncer.vhd

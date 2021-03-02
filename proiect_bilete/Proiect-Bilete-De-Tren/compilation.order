@@ -1,0 +1,11 @@
+.\src\Main.vhd
+.\src\registru.vhd
+.\src\comparator.vhd
+.\src\memorie_ram.vhd
+.\src\suma_totala.vhd
+.\src\scazator.vhd
+.\src\Sumator.vhd
+.\src\display.vhd
+.\src\divizor_frecventa.vhd
+.\src\binary_to_bcd.vhd
+.\src\Debouncer.vhd

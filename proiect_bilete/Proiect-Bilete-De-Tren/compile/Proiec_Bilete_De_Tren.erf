@@ -1,0 +1,5 @@
+MESSAGE "File: C:\Users\Vlad-PC\Desktop\Proiect bun v2 - Copy\proiect_bilete\Proiec Bilete De Tren\src\Main.vhd" 
+MESSAGE "Compile Entity "automat"" 
+MESSAGE "Entity `automat' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "arh_automat" of Entity "automat"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

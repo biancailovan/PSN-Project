@@ -1,0 +1,17 @@
+[Files List]
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\STD/src/standard.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/stdlogic.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/arith.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/numstd.vhd=S
+C:\Program Files (x86)\Aldec\Active-HDL 6.3\VLIB\IEEE/src/unsigned.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/divizor_frecventa.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/binary_to_bcd.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/display.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/Sumator.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/scazator.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/comparator.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/suma_totala.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/memorie_ram.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/registru.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/Debouncer.vhd=S
+E:\proiect final\proiect_bilete\Proiec Bilete De Tren/src/Main.vhd=S

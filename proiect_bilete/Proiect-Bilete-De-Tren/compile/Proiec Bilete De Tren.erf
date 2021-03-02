@@ -1,0 +1,4 @@
+MESSAGE "File: C:\My_Designs\proiect_bilete\Proiec Bilete De Tren\src\registru.vhd" 
+MESSAGE "Compile Entity "reg"" 
+MESSAGE "Compile Architecture "arh_reg" of Entity "reg"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

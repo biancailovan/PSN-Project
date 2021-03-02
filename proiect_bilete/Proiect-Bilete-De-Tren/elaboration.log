@@ -1,0 +1,28 @@
+elbread.dll ver. 1.0.5.365 Sat Jun 01 15:05:40 2019
+
+
+-------------------------------------------------------------
+Entity          | Architecture        | Library            
+-------------------------------------------------------------
+automat         | arh_automat         | Proiec_Bilete_De_Tren
+debouncer       | arh_debouncer       | proiec_bilete_de_tren
+reg             | arh_reg             | proiec_bilete_de_tren
+memorie         | arh_memorie         | proiec_bilete_de_tren
+convertor_suma  | arch_convertor_suma | proiec_bilete_de_tren
+comparator      | arh_comp            | proiec_bilete_de_tren
+scazator        | arh_scazator        | proiec_bilete_de_tren
+sumator         | arh_sumator         | proiec_bilete_de_tren
+display         | arh_display         | proiec_bilete_de_tren
+divizor         | arh_divizor         | proiec_bilete_de_tren
+binary_bcd      | arch_binary_bcd     | proiec_bilete_de_tren
+-------------------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+numeric_std         | ieee
+std_logic_unsigned  | ieee
+-----------------------------

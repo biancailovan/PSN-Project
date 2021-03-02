@@ -1,0 +1,354 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 we
+$IN 9 1 cs
+$IN +4 1 reset
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 49 2 8 data_i
+$SC 17-45/4
+$BUS OUT 82 2 8 5 0 o
+$SC 50-78/4
+I 3 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 95 3 3 address
+$SC 83-+8/4
+I 4 "a#5#ram_t1 ricd7 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 352 4 8 ram
+$SC 96-348/4
+$IN 1 0 Clk
+$BUS IN 361 3 3 address
+$SC 83-+8/4
+$IN 13 0 reset
+$IN 5 0 we
+$IN 9 0 cs
+$BUS IN 362 2 8 data_i
+$SC 17-45/4
+$BUS OUT 363 2 8 5 0 o
+$SC 50-78/4
+$BUS S 364 4 8 ram
+$SC 96-348/4
+$ENDTIME 100000
+$WAVES 1
+=0 T 0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 5 9 +8-45/4 83-+8/4 +5 +4 +12 +16 +4 +12 +16 +4 +12 +16 +4 +12 +16 +4 +12 +16 +4 +12 +16-+36/4 +12
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 13 50-78/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES +26 +4 +8-+8/4 +12 +4 +8-+8/4 +12 +4 +8-+8/4 +12 +4 +8-+8/4 +12 +4 +8-+8/4 +12 +4 +8-+8/4 +44 +4 +8-+8/4
+*0
+$VALUES
+V 1
+1
+$END
+$ENDTIME 200000
+$WAVES 1
+=2 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 45
+=3 D 100k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 17
+*3
+=4 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +4
+*3
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +4
+*3
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 41
+*3
+*4
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 91
+*3
+$VALUES
+V 1
+1
+$END
+$WAVES 83
+*3
+*4
+$VALUES
+V 2
+U
+1
+$END
+$WAVES +4
+*3
+*4
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 13
+*3
+$VALUES
+V 1
+0
+$END
+$ENDTIME 300000
+$WAVES 1
+=5 T 250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 9
+=6 D 200k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 5
+*6
+$VALUES
+V 1
+1
+$END
+$WAVES 124
+=7 D 250k 1
+$VALUES
+V 1
+0
+$END
+$WAVES +-8
+*7
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*7
+$VALUES
+V 1
+1
+$END
+$ENDTIME 400000
+$WAVES 1
+=8 T 350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 45
+=9 D 300k 1
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 91
+*9
+$VALUES
+V 1
+0
+$END
+$WAVES 37
+*9
+$VALUES
+V 1
+1
+$END
+$WAVES 152
+=10 D 350k 1
+$VALUES
+V 1
+0
+$END
+$WAVES +-8
+*10
+$VALUES
+V 1
+1
+$END
+$ENDTIME 500000
+$WAVES 1
+=11 T 450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 87
+=12 D 400k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 37
+*12
+*4
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 33
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES 29
+*12
+$VALUES
+V 1
+1
+$END
+$WAVES 216
+=13 D 450k 1
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*13
+$VALUES
+V 1
+0
+$END
+$WAVES 200
+*13
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*13
+$VALUES
+V 1
+1
+$END
+$ENDTIME 600000
+$WAVES 1
+=14 T 550k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 13
+=15 D 500k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*15
+$VALUES
+V 1
+0
+$END
+$WAVES 5
+*15
+$VALUES
+V 1
+0
+$END
+$WAVES 124
+=16 D 550k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +-8
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*16
+$VALUES
+V 1
+0
+$END
+$WAVES +40
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES +-8
+*16
+$VALUES
+V 1
+0
+$END
+$WAVES +72
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES 200
+*16
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*16
+$VALUES
+V 1
+0
+$END
+$ENDWAVE

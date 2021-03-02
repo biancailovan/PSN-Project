@@ -1,0 +1,62 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 65 1 16 suma
+$SC 1-61/4
+$IN +5 2 E
+I 3 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN +36 3 8 M1
+$SC 70-98/4
+$BUS IN +37 3 8 M2
+$SC 103-+28/4
+$BUS IN +37 3 8 B5
+$SC 136-+28/4
+$BUS IN +37 3 8 B10
+$SC 169-+28/4
+$BUS IN +37 3 8 B20
+$SC 202-+28/4
+$BUS IN +37 3 8 B50
+$SC 235-+28/4
+$BUS OUT +5 1 16 SUMA
+$SC 1-61/4
+$IN +5 0 E
+$BUS IN 269 3 8 M1
+$SC 70-98/4
+$BUS IN 270 3 8 M2
+$SC 103-+28/4
+$BUS IN 271 3 8 B5
+$SC 136-+28/4
+$BUS IN 272 3 8 B10
+$SC 169-+28/4
+$BUS IN +76 3 8 B20
+$SC 202-+28/4
+$BUS IN +44 3 8 B50
+$SC 235-+28/4
+$BUS OUT +12 1 16 SUMA
+$SC 1-61/4
+I 4 "a#6#Matrix1 rict0 5 a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 660 4 6 Prod
+$SC 276-656/4
+$ENDTIME 100000
+$WAVES 1-61/4
+=0 T 0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +5 276-656/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 70-98/4 +5-+28/4 +5-+28/4 +5-+28/4 +5-+28/4 +5-+28/4
+*0
+$VALUES
+V 1
+U
+$END
+$ENDWAVE

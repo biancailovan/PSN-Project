@@ -1,0 +1,116 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 37 2 8 distanta
+$SC 5-33/4
+I 3 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 46 3 2 cond
+$SC 38 +4
+$OUT +5 1 led_err1
+$OUT +4 1 7 0 "2"
+$OUT +4 1 7 0 "3"
+$OUT +4 1 led_bilet
+$OUT +4 1 4 1 res
+$S +4 1 Eafisor
+$S +4 1 Eregistru
+I 4 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 91 4 4 an
+$SC 75-87/4
+I 5 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +33 5 7 a_to_g
+$SC 92-+24/4
+$BUS S +37 2 8 afisare
+$SC 121-+28/4
+$S +5 1 we
+$S +4 1 cs
+$S +4 1 reset
+$S +4 1 E
+$BUS S +36 2 8 data_i
+$SC 170-+28/4
+$BUS S +37 2 8 5 0 o
+$SC 203-+28/4
+$BUS S +13 3 2 ok
+$SC +-8 +4
+I 6 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +17 6 3 address
+$SC 245-+8/4
+$BUS S +37 2 8 ram
+$SC 258-+28/4
+$BUS S +37 2 8 cost
+$SC 291-+28/4
+$BUS S +37 2 8 rest
+$SC 324-+28/4
+$BUS S +37 2 8 M1
+$SC 357-+28/4
+$BUS S +37 2 8 M2
+$SC 390-+28/4
+$BUS S +37 2 8 B5
+$SC 423-+28/4
+$BUS S +37 2 8 B10
+$SC 456-+28/4
+$BUS S +37 2 8 B20
+$SC 489-+28/4
+$BUS S +37 2 8 B50
+$SC 522-+28/4
+$BUS S +37 2 8 SUMA
+$SC 555-+28/4
+I 7 "a#29#std_logic_vector(15 downto 0)1 ricd15 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +69 7 16 total
+$SC 588-+60/4
+$ENDTIME 100000
+$WAVES 59
+=0 T 0
+=1 D 0 2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1
+*0
+R 1 2 =2 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 5-33/4 +5 +4 67 +4 +83 +4 +8-+32/4 +47-+8/4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 47 75-87/4 +5-+24/4 236 +4
+*0
+=3 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 51 63
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 55 +66-+28/4 +13 +41-+28/4 +27-+28/4 +5-+28/4 +38-+28/4 +5-+28/4 +5-+28/4 +5-+28/4 +5-+28/4 +5-+28/4 +5-+28/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 324-+28/4 588-+60/4
+*0
+*3
+$VALUES
+V 2
+U
+X
+$END
+$ENDWAVE

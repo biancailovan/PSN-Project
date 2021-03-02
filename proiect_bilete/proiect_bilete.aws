@@ -1,0 +1,12 @@
+[Version]
+Version=6.3
+[Designs]
+proiec bilete de tren=.\Proiec Bilete De Tren\Proiec Bilete De Tren.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+proiec bilete de tren=1

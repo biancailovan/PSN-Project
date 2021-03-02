@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/automat/E"/>
+				<rawdescription value="KEY:KEY:Override:67/0,1:C:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/address(0)"/>
+				<rawdescription value="KEY:KEY:Override:51/0,1:3:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/address(1)"/>
+				<rawdescription value="KEY:KEY:Override:50/0,1:2:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/address(2)"/>
+				<rawdescription value="KEY:KEY:Override:49/0,1:1:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/clk"/>
+				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/cs"/>
+				<rawdescription value="KEY:KEY:Override:88/0,1:X:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(0)"/>
+				<rawdescription value="KEY:KEY:Override:75/0,1:K:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(1)"/>
+				<rawdescription value="KEY:KEY:Override:74/0,1:J:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(2)"/>
+				<rawdescription value="KEY:KEY:Override:72/0,1:H:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(3)"/>
+				<rawdescription value="KEY:KEY:Override:71/0,1:G:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(4)"/>
+				<rawdescription value="KEY:KEY:Override:70/0,1:F:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(5)"/>
+				<rawdescription value="KEY:KEY:Override:68/0,1:D:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(6)"/>
+				<rawdescription value="KEY:KEY:Override:83/0,1:S:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/data_i(7)"/>
+				<rawdescription value="KEY:KEY:Override:65/0,1:A:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(0)"/>
+				<rawdescription value="KEY:KEY:Override:73/0,1:I:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(1)"/>
+				<rawdescription value="KEY:KEY:Override:85/0,1:U:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(2)"/>
+				<rawdescription value="KEY:KEY:Override:89/0,1:Y:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(3)"/>
+				<rawdescription value="KEY:KEY:Override:84/0,1:T:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(4)"/>
+				<rawdescription value="KEY:KEY:Override:82/0,1:R:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(5)"/>
+				<rawdescription value="KEY:KEY:Override:69/0,1:E:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(6)"/>
+				<rawdescription value="KEY:KEY:Override:87/0,1:W:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/distanta(7)"/>
+				<rawdescription value="KEY:KEY:Override:81/0,1:Q:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/automat/we"/>
+				<rawdescription value="KEY:KEY:Override:90/0,1:Z:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

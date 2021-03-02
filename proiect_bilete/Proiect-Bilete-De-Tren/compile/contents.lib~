@@ -1,0 +1,23 @@
+915
+~E 1 "./src/suma_totala.vhd" 5 convertor_suma
+~A 1 "./src/suma_totala.vhd" 17 arch_convertor_suma
+~E 1 "./src/binary_to_bcd.vhd" 5 binary_bcd
+~A 1 "./src/binary_to_bcd.vhd" 10 arch_binary_bcd
+~E 1 "./src/Main.vhd" 5 automat
+~A 1 "./src/Main.vhd" 20 arh_automat
+~E 1 "./src/comparator.vhd" 5 comparator
+~A 1 "./src/comparator.vhd" 11 arh_comp
+~E 1 "./src/memorie_ram.vhd" 5 memorie
+~A 1 "./src/memorie_ram.vhd" 16 arh_memorie
+~E 1 "./src/display.vhd" 5 display
+~A 1 "./src/display.vhd" 14 arh_display
+~E 1 "./src/Debouncer.vhd" 5 debouncer
+~A 1 "./src/Debouncer.vhd" 12 arh_debouncer
+~E 1 "./src/divizor_frecventa.vhd" 5 divizor
+~A 1 "./src/divizor_frecventa.vhd" 13 arh_divizor
+~E 1 "./src/scazator.vhd" 5 scazator
+~A 1 "./src/scazator.vhd" 11 arh_scazator
+~E 1 "./src/registru.vhd" 5 reg
+~A 1 "./src/registru.vhd" 13 arh_reg
+~E 1 "./src/Sumator.vhd" 5 sumator
+~A 1 "./src/Sumator.vhd" 11 arh_sumator

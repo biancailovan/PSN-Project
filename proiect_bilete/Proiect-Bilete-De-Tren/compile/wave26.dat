@@ -1,0 +1,569 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 clk
+$IN 5 1 suma
+$OUT 9 1 r
+$S +4 1 ledrest
+$S +4 1 lederoare
+$S +4 1 ledbilet
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 57 2 8 data_in
+$SC 25-53/4
+$BUS S 90 2 8 5 0 out
+$SC 58-86/4
+$BUS S +37 2 8 5 0 i
+$SC 91-+28/4
+$BUS S +37 2 8 5 0 o
+$SC 124-+28/4
+I 3 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +17 3 3 address
+$SC 157-+8/4
+I 4 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +13 4 2 ok
+$SC +-8 +4
+$S +5 1 we
+$S +4 1 cs
+$S +4 1 reset
+I 5 "a#5#ram_t1 ricd7 0 a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 447 5 8 "c2/ram"
+$SC 191-443/4
+$IN 5 0 suma
+$IN 1 0 clk
+$OUT 9 0 r
+$S 179 0 we
+$S +4 0 cs
+$S +4 0 reset
+$BUS S 456 2 8 data_in
+$SC 25-53/4
+$BUS S 457 2 8 5 0 out
+$SC 58-86/4
+$BUS S 458 2 8 5 0 i
+$SC 91-+28/4
+$BUS S 459 2 8 5 0 o
+$SC 124-+28/4
+$BUS S 492 2 8 d
+$SC 460-+28/4
+$BUS S +5 4 2 ok
+$SC 170 +4
+$BUS S 494 3 3 address
+$SC 157-+8/4
+$S 13 0 ledrest
+$S +4 0 lederoare
+$S +4 0 ledbilet
+$BUS S 495 5 8 "c2/ram"
+$SC 191-443/4
+$ENDTIME 100000
+$WAVES 21
+=0 T 0
+=1 D 0 2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 1
+*0
+R 1 2 =2 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 5 9-41/16 +4-+8/4 +5 74-86/4 +33 +5-+28/4 +5 +8 +14-+8/4 460-+28/4
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 13 +4
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 29-+8/4 91-+24/4 +46 +30-+8/4 +16-+8/4 +8-+24/8 +4-+12/4 +24-+8/4 +16 +16-+16/8 +4 +8 +20-+32/4 +8-+16/8 +4
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 62-+8/4
+*0
+=3 D 50k 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 170 +4
+*0
+=4 D 0 1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES +29-+8/4 +16-+24/8 +24-+16/4 +16-+8/4 +8-+8/4 +8 +8 +12 +8-+12/4 +40-+16/8
+*0
+$VALUES
+V 1
+1
+$END
+$ENDTIME 200000
+$WAVES 21
+=5 D 100k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+=6 T 150k
+*2
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 41
+*5
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 187
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 119
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 53
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 49
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 25
+*5
+$VALUES
+V 1
+0
+$END
+$WAVES 58
+=7 D 150k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 74
+*7
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*7
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*7
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*7
+$VALUES
+V 1
+0
+$END
+$ENDTIME 300000
+$WAVES 21
+=8 D 200k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 1
+=9 T 250k
+*2
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 183
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 119
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*8
+$VALUES
+V 1
+1
+$END
+$WAVES 443
+=10 D 250k 1
+$VALUES
+V 1
+1
+$END
+$ENDTIME 400000
+$WAVES 21
+=11 D 350k 3
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+=12 T 350k
+*2
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 179
+=13 D 300k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 17
+*11
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*13
+$VALUES
+V 1
+0
+$END
+$WAVES 165
+*13
+$VALUES
+V 1
+1
+$END
+$WAVES +-8
+*13
+$VALUES
+V 1
+1
+$END
+$WAVES +-5
+=14 D 350k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*14
+$VALUES
+V 1
+0
+$END
+$WAVES 476
+=15 D 350k 2
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*15
+$VALUES
+V 1
+1
+$END
+$WAVES 170
+*15
+$VALUES
+V 1
+0
+$END
+$WAVES 472
+*11
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+=16 D 350k 4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+=17 D 350k 5
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+=18 D 350k 6
+$VALUES
+V 1
+1
+$END
+$ENDTIME 500000
+$WAVES 1
+=19 T 450k
+*2
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 179
+=20 D 400k 1
+$VALUES
+V 1
+1
+$END
+$WAVES 407
+=21 D 450k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +-8
+*21
+$VALUES
+V 1
+1
+$END
+$WAVES 283
+*21
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*21
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*21
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*21
+$VALUES
+V 1
+1
+$END
+$ENDTIME 600000
+$WAVES 21
+=22 D 550k 3
+$VALUES
+V 1
+1
+$END
+$WAVES 1
+=23 T 550k
+*2
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 179
+=24 D 500k 1
+$VALUES
+V 1
+0
+$END
+$WAVES 17
+*22
+$VALUES
+V 1
+0
+$END
+$WAVES 13
+*22
+$VALUES
+V 1
+1
+$END
+$WAVES 174
+=25 D 550k 2
+$VALUES
+V 1
+0
+$END
+$WAVES 157
+*24
+$VALUES
+V 1
+0
+$END
+$WAVES +-5
+=26 D 550k 1
+$VALUES
+V 1
+0
+$END
+$WAVES +-8
+*26
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*26
+$VALUES
+V 1
+1
+$END
+$WAVES 476
+*25
+$VALUES
+V 1
+0
+$END
+$WAVES +4
+*25
+$VALUES
+V 1
+0
+$END
+$WAVES +8
+*25
+$VALUES
+V 1
+0
+$END
+$WAVES 170
+*25
+$VALUES
+V 1
+1
+$END
+$WAVES 472
+*22
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+=27 D 550k 4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+=28 D 550k 5
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+=29 D 550k 6
+$VALUES
+V 1
+0
+$END
+$ENDWAVE
